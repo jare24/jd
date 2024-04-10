@@ -1,0 +1,266 @@
+
+* {
+    margin: 10;
+    padding: 20;
+}
+
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index:10px;
+    
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #ff9100, #ff9900);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0, 1px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    text-align: left;
+}
+
+.fa-bars {
+    color: rgb(241, 189, 16);
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* banner section */
+#banner {
+
+
+    color: white;
+    background-image: linear-gradient(to right, #000000, #000000);
+    padding: 15%;
+}
+
+.para1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+
+.vide {
+    width: 45px;
+    margin: 20px;
+}
+
+#banner a {
+    color: white;
+    text-decoration: none;
+}
+
+#img2 {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* services section  */
+
+#services {
+    padding: 80px 0;
+}
+
+#img3 {
+    width: 200px;
+    margin-top: 20px;
+}
+
+#phone{
+    width: 200px;
+    margin-top: 20px;
+    height:200px ;
+}
+
+.f-5{
+    font-size: 15px;
+}
+.services {
+    padding: 20px;
+}
+
+.services h2 {
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.title::before {
+    content: "";
+    background: #dad605;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5px;
+    width: 200px;
+    display: block;
+    transform: translateY(63px);
+    position: sticky;
+}
+
+.title::after {
+    content: "";
+    background: #cc6a1b;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+    position: sticky;
+
+}
+
+#services .btn-primary {
+    border-radius: 20px;
+    border: none;
+    box-shadow: none;
+    padding: 8px 25px;
+    background-image: linear-gradient(to right, #ec930d, #ff0707);
+
+}
+
+/* about us */
+#about {
+    background: #f8f9f9;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about_title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.about_us ul li {
+    margin: 10px 0;
+}
+
+.img-fluid {
+    margin-top: 5%;
+    width: 100%;
+}
+
+#testimony {
+    margin: 100px 5px;
+}
+
+.testimonial {
+    border-left: 2px solid #ff0000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#img4 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.user {
+    display: inline;
+    font-size: 20px;
+}
+
+#social_media .media{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+   
+}
+.media img{
+    width: 50px;
+    padding:8px ;
+    transition: 0.5s;
+}
+
+#social_media {
+    background: #f8f9f9;
+    padding: 100px 0;
+}
+
+#social_media p {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.media :hover {
+    transform: translatey(-10px);
+}
+
+#forter {
+    background-image: linear-gradient(to right, #baa117, #5f1782);
+    color: Red;
+
+}
+
+.forter_box {
+    padding: 20px;
+}
+
+.forter_box .fa 
+{
+    margin-right: 8px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    padding-top: 7px;
+    border-radius: 5px;
+    background-color:rgb(1, 13, 17);
+    background-image: linear-gradient(to right, #FF0000, #FF0000);
+
+
+}
+
+.forter_box .form-control {
+    border: none;
+    max-width: 250px;
+    box-shadow: none !important;
+    margin-top: 25px;
+    border-radius: 0;
+}
+
+.forter_box .btn-primary {
+    border: none;
+    box-shadow: none !important;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #FF0000, #FF0000);
+
+}
+
+hr {
+    background-color: rgb(243, 135, 11);
+}
+
+.copywrite {
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    text-align: center;
+}
