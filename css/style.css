@@ -15,7 +15,10 @@ body {
     z-index:10px;
     
 }
-
+.nav-item a {
+    background-color: #eea913;
+    
+}
 .navbar {
     background-image: linear-gradient(to right, #ff9100, #ff9900);
     padding: 0 !important;
